@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Canvas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="gerenal-board">
+		<h1>Hapiness Board</h1>
+		<ul class="controls">
+			<li class="control">
+				<input type="color" id="btn-color">
+			</li>
+			<li class="control">
+				<button id="btn-colored">colorful</button>	
+			</li>
+			<li class="control constant-input">
+				<label for="const-line">Constant line</label>
+				<input type="checkbox" id="const-line">
+			</li>
+			<li class="control">
+				<input type="range" min="2" max="100" id="size-line">
+				<span id="range-value"></span>
+			</li>
+			<li class="control">
+				<button id="btn-clear">clear</button>
+			</li>
+		</ul>
+		<canvas id="draw" width="800" height="800">Your browser doesn't support canvas</canvas>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
